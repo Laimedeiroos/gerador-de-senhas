@@ -1,0 +1,11 @@
+[package]
+name = "gerador_nova_senha"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+clap = { version = "4.0", features = ["derive"] }
+rand = "0.8"
+sha2 = "0.10"
+hex = "0.4"
+bcrypt = "0.12"
